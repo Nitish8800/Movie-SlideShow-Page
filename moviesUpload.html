@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Movies</title>
+    <link rel="stylesheet" href="LogIn.css">
+  <link rel="stylesheet" href="moviesUpload.css">
+  </head>
+  <body>
+
+       <!-- /* Heading Start -->
+
+       <div class="nav">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="Login.html" class="nav-link">Log-In</a></li>
+          <li><a href="Signup.html" class="nav-link">Sign-Up</a></li>
+        </ul>
+      </div>
+  
+      <!-- Heading End -->
+
+
+
+    <div id="container">
+  
+       <div class="formBox">
+         <h2>Add Movies Details</h2>
+         <form id="form">
+
+            <select id="select" class="selectag">
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Sports">Sports</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Romance">Romance</option>
+              </select>
+
+           <h5>Movie Name :</h5>
+           <input id="name" type="text" placeholder="Name of Movies" class="input" />
+
+           <h5>Release Date :</h5>
+           <input id="date" type="date" placeholder="Enter the Date" class="input"/>
+
+   <h5>Poster :</h5>
+   <input
+   id="img"
+   type="text"
+   placeholder="Enter the image url"
+   alt="image Error"
+   class="input" required
+ />
+
+ <h5>Ratings :</h5>
+ <input id="rating" type="text" placeholder="Enter the Rate Number" class="input"/>
+
+
+
+
+ <input class="submit" type="submit" value="Submit The Movie" />
+           
+         </form>
+         <p>By continuing, you agree to Amazon's <a href="Home.html"class="link">Conditions of Use</a> and <a href="Home.html" class="link">Privacy Notice.</a></p></>
+ 
+         <button class="goToProductPage">Go To the Home Page</button>
+       </div>
+     </div>
+
+  </body>
+</html>
+
+<script src="moviesUpload.js"></script>

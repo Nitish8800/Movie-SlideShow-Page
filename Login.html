@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="LogIn.css" />
+  </head>
+  <body>
+    <!-- /* Heading Start -->
+
+    <div class="nav">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li id="login"><a href="Login.html" class="nav-link">Log-In</a></li>
+        <li id="Signup"><a href="Signup.html" class="nav-link">Sign-Up</a></li>
+      </ul>
+    </div>
+
+    <!-- Heading End -->
+
+    <div id="container">
+      <div class="formBox">
+        <h1>Log-in</h1>
+        <form id="myForm">
+          <h5>E-mail</h5>
+          <input
+            id="email"
+            type="text"
+            placeholder="Enter email"
+            class="input"
+          />
+          <h5>Password</h5>
+          <input
+            id="id_password"
+            type="password"
+            placeholder="Enter password"
+            class="input"
+            required
+          />
+          <i
+            class="far fa-eye"
+            id="togglePassword"
+            style="margin-left: -30px; cursor: pointer"
+          ></i>
+        </form>
+        <button class="signUpButton" id="btn">Log In</button>
+        <p>
+          By continuing, you agree
+          <a
+            href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940"
+            class="link"
+            >Conditions of Use</a
+          >
+          and
+          <a
+            href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380"
+            class="link"
+            >Privacy Notice.</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="Login.js"></script>
